@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Astro</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="./favicon/favicon.png" type="image/x-icon">
-    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
     <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
     <link rel="shortcut icon" href="./favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
     <link rel="manifest" href="./favicon/site.webmanifest" />
-    <link rel="stylesheet" href="./main.css">
- </head>
-<body>
-    <header>
-       <img src="./logo.bmp" alt="Logo">
-       <nav>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Job</a>
-        <a href="#">Contact</a>
-       </nav>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://kit.fontawesome.com/1ca13c9cd6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="container">
+      <img class="logo" src="./img/logo.bmp" alt="Logo" />
+      <nav class="main-nav">
+        <a class="link" href="#">About</a>
+        <a class="link" href="#">Portfolio</a>
+        <a class="link" href="#">Job</a>
+        <a class="link" href="#">Contact</a>
+      </nav>
     </header>
-    <main>
-      <div>
-        <h1>404 Lost in spae</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo molestias dolorem tempora reiciendis. Modi ratione maxime rerum error iusto labore, in optio culpa harum id qui explicabo mollitia commodi aspernatur.</p>
-            <div>
-                <a href="#">Go home</a>
-                <a href="#">Back</a>
-            </div>
+    <main class="container">
+      <div class="left-column">
+        <h1 class="main-title"><span>404</span> Lost in space</h1>
+        <p class="description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+          molestias dolorem tempora reiciendis. Modi ratione maxime rerum error
+          iusto labore, in optio culpa harum id qui explicabo mollitia commodi
+          aspernatur.
+        </p>
+        <div class="button-group">
+          <a class="button" href="#">Go home</a>
+          <a class="button" href="#">Back</a>
+        </div>
       </div>
-      <img src="./astro.webp" alt="astronautas su telefonu rankoje">
+      <img class="right-column" src="./img/astro.webp" alt="astronautas su telefonu rankoje" />
     </main>
-    <footer>
-        Footer Content
+    <footer class="container main-footer">
+        <div class="socials">
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-square-facebook"></i>FB</a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-square-twitter"></i>TW</a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-square-instagram"></i>IG</a>
+            <a href="#" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+              LN</a>
+        </div>
+        <p>&copy; 2023 - All rights reserved</p>
     </footer>
-</body>
+  </body>
 </html>
